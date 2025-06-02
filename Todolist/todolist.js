@@ -11,7 +11,7 @@ export function addTodo(todo) {
 }
 
 //this function returns the list of to do items.
-export function getTodos() {
+export function getAllTodos() {
     return todos;
 }
 
