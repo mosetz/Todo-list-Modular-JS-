@@ -20,7 +20,10 @@ export function getCompletedTodos() {
     return todos.filter(todo => todo.completed);
 }
 
-//this function remove to do items from the list.
+//this function remove to do items from the todo-list.
 export function removeTodo(todoId){
-    
+    const index = todos.findIndex(todo => todo.id === todoId);
+    if (index > -1) {
+        todos.splice(index, 1);
+    }   
 }
