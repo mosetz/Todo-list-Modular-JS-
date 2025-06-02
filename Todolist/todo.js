@@ -1,4 +1,4 @@
-//This module provides function to create and manage to do items.
+//This module provides function to create and single manage to do items.
 export function createTodo(text){
     return {
         id: Date.now(),
