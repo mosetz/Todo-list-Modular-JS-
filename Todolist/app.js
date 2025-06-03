@@ -11,7 +11,7 @@ import {log, error} from './logger.js';
 //DOM elements 
 const todoInput = document.getElementById('input');
 const addBtn = document.getElementById('submit-btn');
-const todoListElement = document.getElementById('todo-list');
+const todoListElement = document.getElementById('todos-list');
 
 function renderTodos() {
     todoListElement.innerHTML = '';
